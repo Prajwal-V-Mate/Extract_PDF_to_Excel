@@ -17,4 +17,13 @@ Python library available at: https://pypi.org/project/openpyxl/
 The input file consists of a PDF conatining data of Faculty Members of IIT Madras
 
 <h3>Output</h3>
-The output file is an excel file containing data extracted from the PDF file.
+The output is an excel file containing data extracted from the PDF file.
+
+<h4>
+A few observations:<br>
+
+1. The document being 656 pages long, there are many exceptions in the document.
+2. Data needs to be categorized in sections like title, name, designation, department, email, phone, specialties, homepage, etc.
+3. Not all the records in the pdf contain all of the needed data and also some of the orders don’t match to other faculty members data.
+4. The library is not 100% accurate and misses some of the data but works well for most of the document.
+
